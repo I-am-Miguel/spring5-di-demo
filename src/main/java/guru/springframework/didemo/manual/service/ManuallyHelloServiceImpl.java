@@ -1,6 +1,8 @@
 package guru.springframework.didemo.manual.service;
 
-public class HelloServiceImpl implements HelloService {
+import guru.springframework.didemo.service.HelloService;
+
+public class ManuallyHelloServiceImpl implements HelloService {
     public static String HELLO = "Hello World";
 
     @Override

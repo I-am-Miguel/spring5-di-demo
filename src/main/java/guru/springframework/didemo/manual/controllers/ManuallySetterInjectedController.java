@@ -1,15 +1,15 @@
 package guru.springframework.didemo.manual.controllers;
 
-import guru.springframework.didemo.manual.service.HelloService;
+import guru.springframework.didemo.service.HelloService;
 
-public class ConstructorInjectedController {
+public class ManuallySetterInjectedController {
 
     private HelloService helloService;
 
-    public ConstructorInjectedController() {
+    public ManuallySetterInjectedController() {
     }
 
-    public ConstructorInjectedController(HelloService helloService) {
+    public void setHelloService(HelloService helloService) {
         this.helloService = helloService;
     }
 

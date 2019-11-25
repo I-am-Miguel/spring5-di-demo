@@ -1,8 +1,8 @@
 package guru.springframework.didemo.manual.controllers;
 
-import guru.springframework.didemo.manual.service.HelloService;
+import guru.springframework.didemo.service.HelloService;
 
-public class PropertyInjectedController {
+public class ManuallyPropertyInjectedController {
 
     public HelloService helloService;
 

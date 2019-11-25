@@ -1,4 +1,4 @@
-package guru.springframework.didemo.manual.service;
+package guru.springframework.didemo.service;
 
 public interface HelloService {
     String getHello();
